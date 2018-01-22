@@ -16,3 +16,7 @@ Quit Game: Escape
 
 ## Installation
 
+1. Download the latest release zip file from GitHub
+2. Extract the "Pong" folder from the archive
+3. Open the Extrated "Pong" folder and run Pong.exe
+4. Have Fun!
