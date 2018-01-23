@@ -91,7 +91,7 @@ void ball::move() {
         g->score->pointcpu();
         vmove = hmove = 0;
         setPos((screenw/2-10),(screenh/2-10));
-                if(g->score->getcpuscore() >= 1) {
+                if(g->score->getcpuscore() >= winPts) {
                     g->e->cwin(screenw);
                 }
         launchable = true;
@@ -101,7 +101,7 @@ void ball::move() {
         g->score->pointplayer();
         vmove = hmove = 0;
         setPos((screenw/2-10),(screenh/2-10));
-        if(g->score->getplayerscore() >= 1) {
+        if(g->score->getplayerscore() >=winPts) {
             g->e->pwin(screenw);
         }
         launchable = true;

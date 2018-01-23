@@ -25,6 +25,7 @@ private:
     int difficulty;
     int speed;
     bool launchable = true;
+    int winPts = 10;
 };
 
 #endif // BALL_H
